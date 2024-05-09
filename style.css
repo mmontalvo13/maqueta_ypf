@@ -1,0 +1,134 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: white;
+}
+
+main{
+    margin: 2%;
+    padding: 3%;
+    padding-left: 4%;
+    background-color: rgb(0, 0, 31);
+}
+
+h1{
+    width: 60%;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+.first_section p{
+    font-size: 1.1rem;
+}
+
+button{
+    background-color: rgb(0, 111, 202);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.second_section{
+    margin-top: 20vh;
+    display: flex;
+}
+
+.second_section h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.second_section h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2rem;
+    width: 2rem;
+    height: 3px;
+    background-color: rgb(0, 111, 202);
+}
+
+.second_section_left{
+    width: 20%;
+}
+
+.second_section_right{
+    width: 80%;
+    padding-left: 10vh;
+    margin-bottom: -20vh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    width: 25%;
+    padding: 200px 20px 20px 20px;
+    margin: 10px;
+    list-style: none;
+    background-color: rgb(39, 39, 49);
+    border-radius: 5px;
+    border: none;
+}
+
+ul li h3{
+    border-top: 1px solid rgb(56, 76, 90);
+    padding-top: 5vh;
+}
+
+.ahorro{
+    background-image: url("imgs/bujia.png");
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position-y: 20%;
+    background-position-x: 50%;
+    position: relative;
+}
+
+.ahorro::after, .combustible::after{
+    content: "¡NUEVO!";
+    position: absolute;
+    left: 10%;
+    top: 0;
+    width: 20%;
+    height: 5%;
+    background-color: rgb(0, 111, 202);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+.combustible{
+    background-image: url("imgs/filtro.png");
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position-y: 14%;
+    background-position-x: 50%;
+    position: relative;
+}
+
+.calidad{
+    background-image: url("imgs/bateria.png");
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position-y: 20%;
+    background-position-x: 50%;
+}
+
